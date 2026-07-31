@@ -1,0 +1,55 @@
+{
+  "name": "tcmb-exchange-rate",
+  "version": "1.0.1",
+  "description": "Official Central Bank of Türkiye (Türkiye) daily exchange rates — ~20 currencies vs TRY, history since 2020. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "tcmb",
+    "central",
+    "bank",
+    "of",
+    "türkiye",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "try",
+    "central-bank",
+    "official-rates",
+    "türkiye",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/tcmb/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/tcmb-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/tcmb-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
