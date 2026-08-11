@@ -1,7 +1,7 @@
 {
   "name": "tcmb-exchange-rate",
-  "version": "1.0.1",
-  "description": "Official Central Bank of Türkiye (Türkiye) daily exchange rates — ~20 currencies vs TRY, history since 2020. Zero-dependency Node.js/TypeScript client.",
+  "version": "1.1.2",
+  "description": "Official Central Bank of Türkiye (Türkiye) daily exchange rates — 22 currencies vs TRY, history since 2020. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "tcmb",
     "central",
