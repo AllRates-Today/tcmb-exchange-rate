@@ -70,10 +70,10 @@ const pair = await getRate('USD', 'TRY', { apiKey: 'art_live_...' });
 {
   bank: 'tcmb',
   name: 'Central Bank of Türkiye',
-  rate_date: '2026-08-11',   // Central Bank of Türkiye's own publication date
+  rate_date: '2026-09-09',   // Central Bank of Türkiye's own publication date
   source: 'USD',
   target: 'TRY',
-  rate: 47.7364,
+  rate: 48.4777,
   rate_type: 'sell',
   derived: false,
   method: 'published',
@@ -98,10 +98,10 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'tcmb',
   name: 'Central Bank of Türkiye',
-  rate_date: '2026-08-11',
+  rate_date: '2026-09-09',
   rates: [
-    { "base": "USD", "quote": "TRY", "type": "sell", "value": 47.7364 },
-    { "base": "USD", "quote": "TRY", "type": "buy", "value": 47.6505 },
+    { "base": "USD", "quote": "TRY", "type": "sell", "value": 48.4777 },
+    { "base": "USD", "quote": "TRY", "type": "buy", "value": 48.3905 },
     // … the rest of the published table (22 currencies vs TRY)
   ],
   disclaimer: '…'
@@ -141,7 +141,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'tcmb-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'TRY', from: '2026-01-01', to: '2026-08-11' },
+  { source: 'USD', target: 'TRY', from: '2026-01-01', to: '2026-09-09' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -154,11 +154,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'TRY',
   from: '2026-01-01',
-  to: '2026-08-11',
+  to: '2026-09-09',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-08-11', rate: 47.7364, rate_type: 'sell', derived: false, method: 'published' },
+    { date: '2026-09-09', rate: 48.4777, rate_type: 'sell', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -171,9 +171,9 @@ Pass `{ symbol: 'USD' }` instead of `source`/`target` to get the raw published r
 
 ## 🗺️ Currencies covered
 
-Central Bank of Türkiye currently publishes rates covering **23 currencies** (as of the latest table):
+Central Bank of Türkiye currently publishes rates covering **22 currencies** against the TRY (as of the latest table):
 
-`AED` · `AUD` · `AZN` · `CAD` · `CHF` · `CNY` · `DKK` · `EUR` · `GBP` · `JPY` · `KRW` · `KWD` · `KZT` · `NOK` · `PKR` · `QAR` · `RON` · `RUB` · `SAR` · `SEK` · `TRY` · `USD` · `XDR`
+🇦🇪 `AED` · 🇦🇺 `AUD` · 🇦🇿 `AZN` · 🇨🇦 `CAD` · 🇨🇭 `CHF` · 🇨🇳 `CNY` · 🇩🇰 `DKK` · 🇪🇺 `EUR` · 🇬🇧 `GBP` · 🇯🇵 `JPY` · 🇰🇷 `KRW` · 🇰🇼 `KWD` · 🇰🇿 `KZT` · 🇳🇴 `NOK` · 🇵🇰 `PKR` · 🇶🇦 `QAR` · 🇷🇴 `RON` · 🇷🇺 `RUB` · 🇸🇦 `SAR` · 🇸🇪 `SEK` · 🇺🇸 `USD` · `XDR`
 
 ## ⚖️ Published vs derived rates
 
@@ -236,6 +236,14 @@ getRate('USD', 'TRY', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 | `getLatestRates({ apiKey })` | Free | The central bank's full latest published table |
 | `getRatesForDate(date, { apiKey, source?, target? })` | Paid | The official table (or one pair) for a YYYY-MM-DD date |
 | `getHistory({ symbol \| source+target, from?, to? }, { apiKey })` | Paid | Daily series since 2020 |
+
+## 📥 Bulk data (no key)
+
+Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
+
+- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/tcmb.csv`)
+- Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
+- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/tcmb/latest.json`
 
 ## 🔗 Links
 
