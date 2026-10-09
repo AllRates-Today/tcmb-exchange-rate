@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/tcmb-exchange-rate.svg)](https://github.com/AllRates-Today/tcmb-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/tcmb-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/TRY today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Ftcmb%3Fsource%3DUSD%26target%3DTRY&query=%24.rate&label=USD%2FTRY%20published%20by%20Central%20Bank%20of%20T%C3%BCrkiye&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/tcmb/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Ftcmb%3Fsource%3DUSD%26target%3DTRY&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/tcmb/)
 
 **Official Central Bank of Türkiye (Türkiye) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Türkiye itself prints, every business day.**
 
@@ -32,6 +34,62 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Türkiye table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Central Bank of Türkiye — 43 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | TRY | buy | 13.3012 |
+| AED | TRY | sell | 13.4752 |
+| AUD | TRY | buy | 34.0558 |
+| AUD | TRY | sell | 34.2779 |
+| AZN | TRY | buy | 28.7361 |
+| AZN | TRY | sell | 29.1121 |
+| CAD | TRY | buy | 34.4032 |
+| CAD | TRY | sell | 34.5583 |
+| CHF | TRY | buy | 58.8005 |
+| CHF | TRY | sell | 59.178 |
+| CNY | TRY | buy | 7.2889 |
+| CNY | TRY | sell | 7.3843 |
+| DKK | TRY | buy | 7.3415 |
+| DKK | TRY | sell | 7.3775 |
+| EUR | TRY | buy | 54.9548 |
+| EUR | TRY | sell | 55.0538 |
+| GBP | TRY | buy | 64.7214 |
+| GBP | TRY | sell | 65.0588 |
+| JPY | TRY | buy | 0.309711 |
+| JPY | TRY | sell | 0.311762 |
+| KRW | TRY | buy | 0.03637 |
+| KRW | TRY | sell | 0.03685 |
+| KWD | TRY | buy | 158.5311 |
+| KWD | TRY | sell | 160.6055 |
+| KZT | TRY | buy | 0.10878 |
+| KZT | TRY | sell | 0.1102 |
+| NOK | TRY | buy | 5.1183 |
+| NOK | TRY | sell | 5.1527 |
+| PKR | TRY | buy | 0.17641 |
+| PKR | TRY | sell | 0.17871 |
+| QAR | TRY | buy | 13.4016 |
+| QAR | TRY | sell | 13.5769 |
+| RON | TRY | buy | 10.2165 |
+| RON | TRY | sell | 10.3502 |
+| RUB | TRY | buy | 0.57125 |
+| RUB | TRY | sell | 0.57873 |
+| SAR | TRY | buy | 13.0856 |
+| SAR | TRY | sell | 13.1091 |
+| SEK | TRY | buy | 4.8854 |
+| SEK | TRY | sell | 4.936 |
+| USD | TRY | buy | 49.1267 |
+| USD | TRY | sell | 49.2152 |
+| XDR | TRY | buy | 66.4801 |
+
+Source: [Official rates published by TCMB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/tcmb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
