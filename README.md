@@ -42,53 +42,53 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by Central Bank of Türkiye — 43 rates. Updated 2026-10-15.
+Published **2026-10-16** by Central Bank of Türkiye — 43 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | TRY | buy | 13.3562 |
-| AED | TRY | sell | 13.531 |
-| AUD | TRY | buy | 34.0838 |
-| AUD | TRY | sell | 34.306 |
-| AZN | TRY | buy | 28.8559 |
-| AZN | TRY | sell | 29.2335 |
-| CAD | TRY | buy | 34.6775 |
-| CAD | TRY | sell | 34.8339 |
-| CHF | TRY | buy | 59.2934 |
-| CHF | TRY | sell | 59.6741 |
-| CNY | TRY | buy | 7.3309 |
-| CNY | TRY | sell | 7.4268 |
-| DKK | TRY | buy | 7.3879 |
-| DKK | TRY | sell | 7.4242 |
-| EUR | TRY | buy | 55.3113 |
-| EUR | TRY | sell | 55.411 |
-| GBP | TRY | buy | 65.2551 |
-| GBP | TRY | sell | 65.5953 |
-| JPY | TRY | buy | 0.311777 |
-| JPY | TRY | sell | 0.313842 |
-| KRW | TRY | buy | 0.03649 |
-| KRW | TRY | sell | 0.03697 |
-| KWD | TRY | buy | 159.192 |
-| KWD | TRY | sell | 161.275 |
-| KZT | TRY | buy | 0.1083 |
-| KZT | TRY | sell | 0.10972 |
-| NOK | TRY | buy | 5.1713 |
-| NOK | TRY | sell | 5.2061 |
-| PKR | TRY | buy | 0.17721 |
-| PKR | TRY | sell | 0.17952 |
-| QAR | TRY | buy | 13.4574 |
-| QAR | TRY | sell | 13.6335 |
-| RON | TRY | buy | 10.3082 |
-| RON | TRY | sell | 10.4431 |
-| RUB | TRY | buy | 0.5859 |
-| RUB | TRY | sell | 0.59357 |
-| SAR | TRY | buy | 13.144 |
-| SAR | TRY | sell | 13.1677 |
-| SEK | TRY | buy | 4.9242 |
-| SEK | TRY | sell | 4.9752 |
-| USD | TRY | buy | 49.3315 |
-| USD | TRY | sell | 49.4204 |
-| XDR | TRY | buy | 66.8496 |
+| AED | TRY | buy | 13.3633 |
+| AED | TRY | sell | 13.5382 |
+| AUD | TRY | buy | 34.2637 |
+| AUD | TRY | sell | 34.4871 |
+| AZN | TRY | buy | 28.871 |
+| AZN | TRY | sell | 29.2488 |
+| CAD | TRY | buy | 34.8079 |
+| CAD | TRY | sell | 34.9649 |
+| CHF | TRY | buy | 59.7521 |
+| CHF | TRY | sell | 60.1358 |
+| CNY | TRY | buy | 7.34 |
+| CNY | TRY | sell | 7.436 |
+| DKK | TRY | buy | 7.4155 |
+| DKK | TRY | sell | 7.4519 |
+| EUR | TRY | buy | 55.5179 |
+| EUR | TRY | sell | 55.618 |
+| GBP | TRY | buy | 65.6633 |
+| GBP | TRY | sell | 66.0056 |
+| JPY | TRY | buy | 0.311708 |
+| JPY | TRY | sell | 0.313773 |
+| KRW | TRY | buy | 0.03685 |
+| KRW | TRY | sell | 0.03733 |
+| KWD | TRY | buy | 159.2753 |
+| KWD | TRY | sell | 161.3594 |
+| KZT | TRY | buy | 0.10841 |
+| KZT | TRY | sell | 0.10983 |
+| NOK | TRY | buy | 5.2129 |
+| NOK | TRY | sell | 5.248 |
+| PKR | TRY | buy | 0.1773 |
+| PKR | TRY | sell | 0.17962 |
+| QAR | TRY | buy | 13.4645 |
+| QAR | TRY | sell | 13.6407 |
+| RON | TRY | buy | 10.3462 |
+| RON | TRY | sell | 10.4816 |
+| RUB | TRY | buy | 0.58651 |
+| RUB | TRY | sell | 0.59419 |
+| SAR | TRY | buy | 13.1524 |
+| SAR | TRY | sell | 13.1761 |
+| SEK | TRY | buy | 4.9631 |
+| SEK | TRY | sell | 5.0145 |
+| USD | TRY | buy | 49.3573 |
+| USD | TRY | sell | 49.4463 |
+| XDR | TRY | buy | 66.984 |
 
 Source: [Official rates published by TCMB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/tcmb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -283,7 +283,7 @@ curl "https://allratestoday.com/api/v1/central-bank/tcmb/latest?format=xml&api_k
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('tcmb')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate tcmb ...` command
-- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
+- Evaluating? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days that covers the free-plan methods (latest table, pairs); dated tables and history need a [paid plan](https://allratestoday.com/pricing/). The MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
