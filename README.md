@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number Central Bank of Türkiye itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest Central Bank of Türkiye table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,62 +47,58 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Central Bank of Türkiye — 43 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by Central Bank of Türkiye — 43 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | TRY | buy | 13.3916 |
-| AED | TRY | sell | 13.5669 |
-| AUD | TRY | buy | 34.447 |
-| AUD | TRY | sell | 34.6716 |
-| AZN | TRY | buy | 28.9329 |
-| AZN | TRY | sell | 29.3115 |
-| CAD | TRY | buy | 35.0567 |
-| CAD | TRY | sell | 35.2148 |
-| CHF | TRY | buy | 59.8331 |
-| CHF | TRY | sell | 60.2173 |
-| CNY | TRY | buy | 7.3618 |
-| CNY | TRY | sell | 7.4582 |
-| DKK | TRY | buy | 7.409 |
-| DKK | TRY | sell | 7.4454 |
-| EUR | TRY | buy | 55.4677 |
-| EUR | TRY | sell | 55.5676 |
-| GBP | TRY | buy | 65.8058 |
-| GBP | TRY | sell | 66.1489 |
-| JPY | TRY | buy | 0.312002 |
-| JPY | TRY | sell | 0.314068 |
-| KRW | TRY | buy | 0.03698 |
-| KRW | TRY | sell | 0.03746 |
-| KWD | TRY | buy | 159.6948 |
-| KWD | TRY | sell | 161.7844 |
-| KZT | TRY | buy | 0.10871 |
-| KZT | TRY | sell | 0.11013 |
-| NOK | TRY | buy | 5.2388 |
-| NOK | TRY | sell | 5.274 |
-| PKR | TRY | buy | 0.17768 |
-| PKR | TRY | sell | 0.18 |
-| QAR | TRY | buy | 13.4941 |
-| QAR | TRY | sell | 13.6707 |
-| RON | TRY | buy | 10.3569 |
-| RON | TRY | sell | 10.4924 |
-| RUB | TRY | buy | 0.59359 |
-| RUB | TRY | sell | 0.60136 |
-| SAR | TRY | buy | 13.1815 |
-| SAR | TRY | sell | 13.2053 |
-| SEK | TRY | buy | 4.9691 |
-| SEK | TRY | sell | 5.0205 |
-| USD | TRY | buy | 49.4632 |
-| USD | TRY | sell | 49.5523 |
-| XDR | TRY | buy | 67.0662 |
+| AED | TRY | buy | 13.399 |
+| AED | TRY | sell | 13.5743 |
+| AUD | TRY | buy | 34.5175 |
+| AUD | TRY | sell | 34.7426 |
+| AZN | TRY | buy | 28.9479 |
+| AZN | TRY | sell | 29.3267 |
+| CAD | TRY | buy | 35.1474 |
+| CAD | TRY | sell | 35.306 |
+| CHF | TRY | buy | 59.8732 |
+| CHF | TRY | sell | 60.2576 |
+| CNY | TRY | buy | 7.3687 |
+| CNY | TRY | sell | 7.4651 |
+| DKK | TRY | buy | 7.4162 |
+| DKK | TRY | sell | 7.4526 |
+| EUR | TRY | buy | 55.5191 |
+| EUR | TRY | sell | 55.6191 |
+| GBP | TRY | buy | 65.9375 |
+| GBP | TRY | sell | 66.2813 |
+| JPY | TRY | buy | 0.312201 |
+| JPY | TRY | sell | 0.314269 |
+| KRW | TRY | buy | 0.03706 |
+| KRW | TRY | sell | 0.03755 |
+| KWD | TRY | buy | 159.7775 |
+| KWD | TRY | sell | 161.8682 |
+| KZT | TRY | buy | 0.10915 |
+| KZT | TRY | sell | 0.11058 |
+| NOK | TRY | buy | 5.2579 |
+| NOK | TRY | sell | 5.2932 |
+| PKR | TRY | buy | 0.1778 |
+| PKR | TRY | sell | 0.18013 |
+| QAR | TRY | buy | 13.5011 |
+| QAR | TRY | sell | 13.6778 |
+| RON | TRY | buy | 10.3614 |
+| RON | TRY | sell | 10.4969 |
+| RUB | TRY | buy | 0.59481 |
+| RUB | TRY | sell | 0.6026 |
+| SAR | TRY | buy | 13.1935 |
+| SAR | TRY | sell | 13.2173 |
+| SEK | TRY | buy | 4.9738 |
+| SEK | TRY | sell | 5.0252 |
+| USD | TRY | buy | 49.4889 |
+| USD | TRY | sell | 49.578 |
+| XDR | TRY | buy | 67.1213 |
 
 </details>
 
 Source: [Official rates published by TCMB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/tcmb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
