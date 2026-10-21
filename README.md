@@ -37,7 +37,7 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/tcmb').th
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
 
 ## 📈 Latest published table
 
@@ -47,53 +47,53 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-20 by Central Bank of Türkiye — 43 rates. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-21 by Central Bank of Türkiye — 43 rates. Updated 2026-10-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | TRY | buy | 13.399 |
-| AED | TRY | sell | 13.5743 |
-| AUD | TRY | buy | 34.5175 |
-| AUD | TRY | sell | 34.7426 |
-| AZN | TRY | buy | 28.9479 |
-| AZN | TRY | sell | 29.3267 |
-| CAD | TRY | buy | 35.1474 |
-| CAD | TRY | sell | 35.306 |
-| CHF | TRY | buy | 59.8732 |
-| CHF | TRY | sell | 60.2576 |
-| CNY | TRY | buy | 7.3687 |
-| CNY | TRY | sell | 7.4651 |
-| DKK | TRY | buy | 7.4162 |
-| DKK | TRY | sell | 7.4526 |
-| EUR | TRY | buy | 55.5191 |
-| EUR | TRY | sell | 55.6191 |
-| GBP | TRY | buy | 65.9375 |
-| GBP | TRY | sell | 66.2813 |
-| JPY | TRY | buy | 0.312201 |
-| JPY | TRY | sell | 0.314269 |
-| KRW | TRY | buy | 0.03706 |
-| KRW | TRY | sell | 0.03755 |
-| KWD | TRY | buy | 159.7775 |
-| KWD | TRY | sell | 161.8682 |
-| KZT | TRY | buy | 0.10915 |
-| KZT | TRY | sell | 0.11058 |
-| NOK | TRY | buy | 5.2579 |
-| NOK | TRY | sell | 5.2932 |
-| PKR | TRY | buy | 0.1778 |
-| PKR | TRY | sell | 0.18013 |
-| QAR | TRY | buy | 13.5011 |
-| QAR | TRY | sell | 13.6778 |
-| RON | TRY | buy | 10.3614 |
-| RON | TRY | sell | 10.4969 |
-| RUB | TRY | buy | 0.59481 |
-| RUB | TRY | sell | 0.6026 |
-| SAR | TRY | buy | 13.1935 |
-| SAR | TRY | sell | 13.2173 |
-| SEK | TRY | buy | 4.9738 |
-| SEK | TRY | sell | 5.0252 |
-| USD | TRY | buy | 49.4889 |
-| USD | TRY | sell | 49.578 |
-| XDR | TRY | buy | 67.1213 |
+| AED | TRY | buy | 13.4055 |
+| AED | TRY | sell | 13.5809 |
+| AUD | TRY | buy | 34.7129 |
+| AUD | TRY | sell | 34.9393 |
+| AZN | TRY | buy | 28.9616 |
+| AZN | TRY | sell | 29.3406 |
+| CAD | TRY | buy | 35.1876 |
+| CAD | TRY | sell | 35.3463 |
+| CHF | TRY | buy | 59.8822 |
+| CHF | TRY | sell | 60.2667 |
+| CNY | TRY | buy | 7.3737 |
+| CNY | TRY | sell | 7.4702 |
+| DKK | TRY | buy | 7.4242 |
+| DKK | TRY | sell | 7.4607 |
+| EUR | TRY | buy | 55.578 |
+| EUR | TRY | sell | 55.6781 |
+| GBP | TRY | buy | 66.1944 |
+| GBP | TRY | sell | 66.5396 |
+| JPY | TRY | buy | 0.31244 |
+| JPY | TRY | sell | 0.314509 |
+| KRW | TRY | buy | 0.03717 |
+| KRW | TRY | sell | 0.03766 |
+| KWD | TRY | buy | 159.8532 |
+| KWD | TRY | sell | 161.9448 |
+| KZT | TRY | buy | 0.10964 |
+| KZT | TRY | sell | 0.11107 |
+| NOK | TRY | buy | 5.2689 |
+| NOK | TRY | sell | 5.3043 |
+| PKR | TRY | buy | 0.17789 |
+| PKR | TRY | sell | 0.18022 |
+| QAR | TRY | buy | 13.5075 |
+| QAR | TRY | sell | 13.6842 |
+| RON | TRY | buy | 10.3654 |
+| RON | TRY | sell | 10.5011 |
+| RUB | TRY | buy | 0.59974 |
+| RUB | TRY | sell | 0.60759 |
+| SAR | TRY | buy | 13.1988 |
+| SAR | TRY | sell | 13.2226 |
+| SEK | TRY | buy | 4.9794 |
+| SEK | TRY | sell | 5.0309 |
+| USD | TRY | buy | 49.5123 |
+| USD | TRY | sell | 49.6015 |
+| XDR | TRY | buy | 67.1864 |
 
 </details>
 
