@@ -31,58 +31,7 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-<details>
-<summary>Table as text: published 2026-11-13 by Central Bank of Türkiye — 43 rates. Updated 2026-11-13.</summary>
-
-| Base | Quote | Type | Rate |
-| --- | --- | --- | ---: |
-| AED | TRY | buy | 13.5895 |
-| AED | TRY | sell | 13.7673 |
-| AUD | TRY | buy | 34.0202 |
-| AUD | TRY | sell | 34.242 |
-| AZN | TRY | buy | 29.3595 |
-| AZN | TRY | sell | 29.7437 |
-| CAD | TRY | buy | 35.1522 |
-| CAD | TRY | sell | 35.3108 |
-| CHF | TRY | buy | 59.8602 |
-| CHF | TRY | sell | 60.2445 |
-| CNY | TRY | buy | 7.4818 |
-| CNY | TRY | sell | 7.5797 |
-| DKK | TRY | buy | 7.4131 |
-| DKK | TRY | sell | 7.4495 |
-| EUR | TRY | buy | 55.5033 |
-| EUR | TRY | sell | 55.6033 |
-| GBP | TRY | buy | 66.3009 |
-| GBP | TRY | sell | 66.6466 |
-| JPY | TRY | buy | 0.313183 |
-| JPY | TRY | sell | 0.315257 |
-| KRW | TRY | buy | 0.03734 |
-| KRW | TRY | sell | 0.03783 |
-| KWD | TRY | buy | 161.7344 |
-| KWD | TRY | sell | 163.8507 |
-| KZT | TRY | buy | 0.11221 |
-| KZT | TRY | sell | 0.11368 |
-| NOK | TRY | buy | 5.2411 |
-| NOK | TRY | sell | 5.2763 |
-| PKR | TRY | buy | 0.18049 |
-| PKR | TRY | sell | 0.18285 |
-| QAR | TRY | buy | 13.6931 |
-| QAR | TRY | sell | 13.8722 |
-| RON | TRY | buy | 10.3181 |
-| RON | TRY | sell | 10.4531 |
-| RUB | TRY | buy | 0.60685 |
-| RUB | TRY | sell | 0.61479 |
-| SAR | TRY | buy | 13.374 |
-| SAR | TRY | sell | 13.3981 |
-| SEK | TRY | buy | 4.9812 |
-| SEK | TRY | sell | 5.0328 |
-| USD | TRY | buy | 50.1926 |
-| USD | TRY | sell | 50.283 |
-| XDR | TRY | buy | 67.6904 |
-
-</details>
-
-Source: [Official rates published by TCMB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/tcmb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+_The table is filled in by the daily workflow._
 <!-- daily-table:end -->
 
 ## 📦 Installation
