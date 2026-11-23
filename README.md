@@ -32,53 +32,53 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-20 by Central Bank of Türkiye — 43 rates. Updated 2026-11-20.</summary>
+<summary>Table as text: published 2026-11-23 by Central Bank of Türkiye — 43 rates. Updated 2026-11-23.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | TRY | buy | 13.6468 |
-| AED | TRY | sell | 13.8254 |
-| AUD | TRY | buy | 33.5191 |
-| AUD | TRY | sell | 33.7377 |
-| AZN | TRY | buy | 29.4825 |
-| AZN | TRY | sell | 29.8683 |
-| CAD | TRY | buy | 35.141 |
-| CAD | TRY | sell | 35.2994 |
-| CHF | TRY | buy | 59.713 |
-| CHF | TRY | sell | 60.0964 |
-| CNY | TRY | buy | 7.5081 |
-| CNY | TRY | sell | 7.6063 |
-| DKK | TRY | buy | 7.3865 |
-| DKK | TRY | sell | 7.4228 |
-| EUR | TRY | buy | 55.2974 |
-| EUR | TRY | sell | 55.397 |
-| GBP | TRY | buy | 65.9363 |
-| GBP | TRY | sell | 66.2801 |
-| JPY | TRY | buy | 0.316277 |
-| JPY | TRY | sell | 0.318372 |
-| KRW | TRY | buy | 0.03748 |
-| KRW | TRY | sell | 0.03797 |
-| KWD | TRY | buy | 162.2017 |
-| KWD | TRY | sell | 164.3241 |
-| KZT | TRY | buy | 0.11029 |
-| KZT | TRY | sell | 0.11173 |
-| NOK | TRY | buy | 5.1476 |
-| NOK | TRY | sell | 5.1822 |
-| PKR | TRY | buy | 0.18132 |
-| PKR | TRY | sell | 0.18369 |
-| QAR | TRY | buy | 13.7555 |
-| QAR | TRY | sell | 13.9355 |
-| RON | TRY | buy | 10.2791 |
-| RON | TRY | sell | 10.4136 |
-| RUB | TRY | buy | 0.6119 |
-| RUB | TRY | sell | 0.6199 |
-| SAR | TRY | buy | 13.434 |
-| SAR | TRY | sell | 13.4582 |
-| SEK | TRY | buy | 4.9202 |
-| SEK | TRY | sell | 4.9711 |
-| USD | TRY | buy | 50.4028 |
-| USD | TRY | sell | 50.4936 |
-| XDR | TRY | buy | 67.7763 |
+| AED | TRY | buy | 13.6761 |
+| AED | TRY | sell | 13.855 |
+| AUD | TRY | buy | 33.4789 |
+| AUD | TRY | sell | 33.6972 |
+| AZN | TRY | buy | 29.5462 |
+| AZN | TRY | sell | 29.9328 |
+| CAD | TRY | buy | 35.2092 |
+| CAD | TRY | sell | 35.368 |
+| CHF | TRY | buy | 60.0869 |
+| CHF | TRY | sell | 60.4726 |
+| CNY | TRY | buy | 7.5359 |
+| CNY | TRY | sell | 7.6345 |
+| DKK | TRY | buy | 7.4088 |
+| DKK | TRY | sell | 7.4452 |
+| EUR | TRY | buy | 55.4656 |
+| EUR | TRY | sell | 55.5655 |
+| GBP | TRY | buy | 66.1497 |
+| GBP | TRY | sell | 66.4945 |
+| JPY | TRY | buy | 0.316759 |
+| JPY | TRY | sell | 0.318857 |
+| KRW | TRY | buy | 0.03733 |
+| KRW | TRY | sell | 0.03782 |
+| KWD | TRY | buy | 162.6044 |
+| KWD | TRY | sell | 164.7321 |
+| KZT | TRY | buy | 0.11054 |
+| KZT | TRY | sell | 0.11198 |
+| NOK | TRY | buy | 5.1692 |
+| NOK | TRY | sell | 5.204 |
+| PKR | TRY | buy | 0.18171 |
+| PKR | TRY | sell | 0.18409 |
+| QAR | TRY | buy | 13.7792 |
+| QAR | TRY | sell | 13.9595 |
+| RON | TRY | buy | 10.3117 |
+| RON | TRY | sell | 10.4466 |
+| RUB | TRY | buy | 0.61361 |
+| RUB | TRY | sell | 0.62164 |
+| SAR | TRY | buy | 13.4617 |
+| SAR | TRY | sell | 13.4859 |
+| SEK | TRY | buy | 4.9231 |
+| SEK | TRY | sell | 4.9741 |
+| USD | TRY | buy | 50.5116 |
+| USD | TRY | sell | 50.6026 |
+| XDR | TRY | buy | 67.9568 |
 
 </details>
 
